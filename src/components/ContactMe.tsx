@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
 import {
   FaEnvelopeOpen,
@@ -68,7 +66,7 @@ function ContactMe() {
       url: "https://formspree.io/moqzvewr",
       data: inputs,
     })
-      .then((response: any) => {
+      .then(() => {
         handleServerResponse(
           true,
           "Thank you, your message has been submitted."
