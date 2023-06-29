@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #111;
+  background-position: 50%;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  font-family: Open Sans, sans-serif
+}
+
+.animate-slide-down {
+  animation: slide-down 0.5s ease-in-out;
+}
+
+.modal {
+  background-color: #111;
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .image {
+    height: 40vh;
+    align-items: center;
+  }
+
+  .icons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2b2a2a;
+  }
+
+  .list {
+    width: 100%;
+  }
+
+
+}
+
+
+
+.place:before {
+  background-color: #fff;
+  content: "";
+  height: 2px;
+  left: 7px;
+  opacity: .8;
+  position: absolute;
+  top: 9px;
+  width: 10px;
+}
+
+.line:after {
+  border-left: 1px solid #333;
+  bottom: 0;
+  content: "";
+  left: 20px;
+  position: absolute;
+  top: 0;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+.scroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+  overflow: hidden;
+  opacity: 0.2;
+}
+
+.scroll:hover::-webkit-scrollbar,
+.scroll:active::-webkit-scrollbar {
+  opacity: 0.2;
+}
+
+.scroll::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.scroll::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #ef4444;
+  border-radius: 20px;
+  opacity: 0.2;
+}
+
+.scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  opacity: 0.2;
+}

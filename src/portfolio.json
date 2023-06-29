@@ -1,0 +1,68 @@
+{
+  "portfolio": [
+    {
+      "key": 1,
+      "project": "Refresh-cola",
+      "language": "HTML, CSS, JS",
+      "website": "https://refresh-cola.vercel.app",
+      "image": "https://raw.githubusercontent.com/Sgutierrezgf/imagenes/main/portfolio/cola.webp",
+      "description": "Project to learn how to handle arrays, with Javascript"
+    },
+    {
+      "key": 2,
+      "project": "General-search",
+      "language": "HTML, CSS, JS",
+      "website": "https://buscador-general.vercel.app",
+      "image": "https://raw.githubusercontent.com/Sgutierrezgf/imagenes/main/portfolio/buscador.webp",
+      "description": "Creation of a table for searching company information"
+    },
+    {
+      "key": 3,
+      "project": "Clone-twitter",
+      "language": "HTML, CSS, TS",
+      "website": "https://refresh-cola.vercel.app",
+      "image": "https://raw.githubusercontent.com/Sgutierrezgf/imagenes/main/portfolio/cloneTwitter.webp",
+      "description": "Creation of a twitter section"
+    },
+    {
+      "key": 4,
+      "project": "Aranda-food",
+      "language": "HTML, SASS, TS",
+      "website": "https://arandafood-32zr.vercel.app",
+      "image": "https://raw.githubusercontent.com/Sgutierrezgf/imagenes/main/portfolio/food.webp",
+      "description": "Copy of a given mug for a technical test"
+    },
+    {
+      "key": 5,
+      "project": "Phone-agenda",
+      "language": "HTML, TAILWIND, TS",
+      "website": "https://agenda-virid.vercel.app",
+      "image": "https://raw.githubusercontent.com/Sgutierrezgf/imagenes/main/portfolio/agenda.webp",
+      "description": "Creation of a phone book"
+    },
+    {
+      "key": 6,
+      "project": "movie-Search",
+      "language": "HTML, CSS, JS",
+      "website": "https://movies-search-mocha.vercel.app",
+      "image": "https://raw.githubusercontent.com/Sgutierrezgf/imagenes/main/portfolio/searchMovies.webp",
+      "description": "Movie search engine"
+    },
+    {
+      "key": 7,
+      "project": "Pokemon-api",
+      "language": "HTML, TAILWIND, TS, NEXTJS",
+      "website": "https://pokenext-three-rust.vercel.app/pokemons",
+      "image": "https://raw.githubusercontent.com/Sgutierrezgf/imagenes/main/portfolio/pokeApi.webp",
+      "description": "working with pokeapi, adding a login, with mongoDB and Next"
+    },
+    {
+      "key": 8,
+      "project": "marvel",
+      "language": "HTML, TAILWIND, TS, NEXTJS",
+      "website": "https://dcnext-sgutierrezgf.vercel.app",
+      "image": "https://raw.githubusercontent.com/Sgutierrezgf/imagenes/main/portfolio/marvel.webp",
+      "description": "Working on a figma design, this project was made for a technical interview, using NextJS."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.class1 img {
+    width: 500px;
+    height: 500px;
+}
+
+.class2 {
+    background-color: blue;
+}
+
+.class3 {
+
+    background-color: black;
+}

@@ -1,2 +1,0 @@
-# sgutierrezg
-Portfolio resume
