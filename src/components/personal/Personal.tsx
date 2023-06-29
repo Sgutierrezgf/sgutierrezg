@@ -34,7 +34,7 @@ function Personal() {
               <div className="px-4 hidden max-[767px]:flex max-[767px]:justify-center">
                 <img
                   className="rounded-full h-60 w-60 md:h-auto md:w-6/12 object-cover"
-                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="hhttps://github.com/Sgutierrezgf/imagenes/blob/main/perfil/port3.jpeg?raw=true"
                   alt="personal"
                   loading="lazy"
                 />
