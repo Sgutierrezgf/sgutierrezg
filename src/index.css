@@ -8,7 +8,7 @@ body {
   background-size: cover;
   color: #fff;
   height: 100%;
-  font-family: Open Sans, sans-serif
+  font-family: Open Sans, sans-serif;
 }
 
 .animate-slide-down {
@@ -62,10 +62,15 @@ body {
     left: 0;
     width: 100%;
     background-color: #2b2a2a;
+    z-index: 999;
   }
 
   .list {
     width: 100%;
+  }
+
+  .fondo {
+    display: none;
   }
 }
 

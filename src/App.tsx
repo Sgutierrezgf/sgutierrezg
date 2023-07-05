@@ -40,8 +40,8 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center h-screen p-4">
       <div className="fondo"></div>
-      <div className="container h-4/5 md:flex z-10">
-        <div className="image md:w-1/2 flex justify-center">
+      <div className="container h-4/5 md:flex">
+        <div className="image md:w-1/2 flex justify-center z-10">
           <img
             className="object-cover rounded-full md:rounded-none  h-60 w-60 md:h-auto md:w-6/12"
             src="https://github.com/Sgutierrezgf/imagenes/blob/main/perfil/perfil.jpeg?raw=true"
