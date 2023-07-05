@@ -39,6 +39,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen p-4">
+      <div className="fondo"></div>
       <div className="container h-4/5 md:flex">
         <div className="image md:w-1/2 flex justify-center">
           <img
@@ -49,7 +50,7 @@ function App() {
         </div>
         <div className="md:w-1/2 self-center px-4 md:px-0">
           <div>
-            <h1 className="text-5xl font-bold leading-10 text-red-500 hover:underline mt-4 mb-2 pl-14 relative">
+            <h1 className="text-5xl font-bold leading-10 text-orange-600 hover:underline mt-4 mb-2 pl-14 relative">
               I'M SEBASTIAN GUTIERREZ GUISAO
               <span className="block text-white pt-2">FRONTEND DEVELOPER</span>
             </h1>
@@ -74,23 +75,23 @@ function App() {
                   HOME
                 </span>
                 <div className="w-12 h-12 flex items-center justify-center z-40">
-                  <FaHome className="cursor-pointer w-8 h-8 transition-transform duration-300 group-hover:text-white z-40 text-red-500" />
+                  <FaHome className="cursor-pointer w-8 h-8 transition-transform duration-300 group-hover:text-white z-40 text-orange-600" />
                 </div>
-                <div className="absolute inset-0 border-4 border-transparent rounded-full group-hover:bg-red-500 p-2 transition duration-700 ease-in-out -m-2"></div>
+                <div className="absolute inset-0 border-4 border-transparent rounded-full group-hover:bg-orange-600 p-2 transition duration-700 ease-in-out -m-2"></div>
               </div>
             </li>
             <li
               className="relative group cursor-pointer"
               onClick={() => handleOpenModal("User")}
             >
-              <div className="flex items-center justify-center h-10 relative group">
+              <div className="flex items-center justify-center h-10 ml-3 relative group">
                 <span className="hidden md:inline opacity-0 mr-2 group-hover:text-white px-2 py-1 rounded-full transition-opacity duration-300 group-hover:opacity-100 z-40">
                   ABOUT
                 </span>
                 <div className="w-12 h-12 flex items-center justify-center z-40">
-                  <FaUserCircle className="cursor-pointer w-8 h-8 transition-transform duration-300 group-hover:text-white z-40 text-red-500" />
+                  <FaUserCircle className="cursor-pointer w-8 h-8 transition-transform duration-300 group-hover:text-white z-40 text-orange-600" />
                 </div>
-                <div className="absolute  inset-0 border-4 border-transparent rounded-full group-hover:bg-red-500 p-2 transition duration-700 ease-in-out -m-2"></div>
+                <div className="absolute  inset-0 border-4 border-transparent rounded-full group-hover:bg-orange-600 p-2 transition duration-700 ease-in-out -m-2"></div>
               </div>
             </li>
 
@@ -98,28 +99,28 @@ function App() {
               className="relative group cursor-pointer"
               onClick={() => handleOpenModal("Portfolio")}
             >
-              <div className="flex items-center justify-center h-10 relative group">
+              <div className="flex items-center justify-center h-10 mr-2 relative group">
                 <span className="hidden md:inline opacity-0 mr-2 group-hover:text-white px-2 py-1 rounded-full transition-opacity duration-300 group-hover:opacity-100 z-40">
                   PORTFOLIO
                 </span>
                 <div className="w-12 h-12 flex items-center justify-center z-40">
-                  <FaLaptopCode className="cursor-pointer w-8 h-8 transition-transform duration-300 group-hover:text-white z-40 text-red-500" />
+                  <FaLaptopCode className="cursor-pointer w-8 h-8 transition-transform duration-300 group-hover:text-white z-40 text-orange-600" />
                 </div>
-                <div className="absolute inset-0 border-4 border-transparent rounded-full group-hover:bg-red-500 p-2 transition duration-700 ease-in-out -m-2"></div>
+                <div className="absolute inset-0 border-4 border-transparent rounded-full group-hover:bg-orange-600 p-2 transition duration-700 ease-in-out -m-2"></div>
               </div>
             </li>
             <li
               className="relative group cursor-pointer"
               onClick={() => handleOpenModal("Contact")}
             >
-              <div className="flex items-center justify-center h-10 relative group">
+              <div className="flex items-center justify-center h-10 ml-4 relative group">
                 <span className="hidden md:inline opacity-0 mr-2 group-hover:text-white px-2 py-1 rounded-full transition-opacity duration-300 group-hover:opacity-100 z-40">
                   CONTACT
                 </span>
                 <div className="w-12 h-12 flex items-center justify-center z-40">
-                  <AiOutlineMessage className="cursor-pointer w-8 h-8 transition-transform duration-300 group-hover:text-white z-40 text-red-500" />
+                  <AiOutlineMessage className="cursor-pointer w-8 h-8 transition-transform duration-300 group-hover:text-white z-40 text-orange-600" />
                 </div>
-                <div className="absolute inset-0 border-4 border-transparent rounded-full group-hover:bg-red-500 p-2 transition duration-700 ease-in-out -m-2"></div>
+                <div className="absolute inset-0 border-4 border-transparent rounded-full group-hover:bg-orange-600 p-2 transition duration-700 ease-in-out -m-2"></div>
               </div>
             </li>
           </ul>

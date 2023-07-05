@@ -97,7 +97,7 @@ function ContactMe() {
       <div className="mx-auto py-20 relative text-center">
         <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase">
           get in
-          <span className="text-red-500"> touch</span>
+          <span className="text-orange-600"> touch</span>
         </h1>
         <span
           className="text-white text-9xl max-[767px]:text-8xl max-[600px]:text-6xl font-semibold absolute left-0 right-0 top-1/2 transform -translate-y-1/2"
@@ -155,7 +155,7 @@ function ContactMe() {
               </p>
             </div>
             <ul className="flex flex-wrap pt-1 mb-5 justify-center">
-              <li className="bg-gray-950 hover:bg-red-500 rounded-full text-white text-lg h-12 w-12 leading-10 mx-1 text-center flex items-center justify-center">
+              <li className="bg-gray-950 hover:bg-orange-600 rounded-full text-white text-lg h-12 w-12 leading-10 mx-1 text-center flex items-center justify-center">
                 <a
                   onClick={handleWhatsAppClick}
                   target="_blank"
@@ -165,7 +165,7 @@ function ContactMe() {
                   <FaWhatsapp className="h-6 w-6" />
                 </a>
               </li>
-              <li className="bg-gray-950 hover:bg-red-500 rounded-full text-white text-lg h-12 w-12 leading-10 mx-1 text-center flex items-center justify-center">
+              <li className="bg-gray-950 hover:bg-orange-600 rounded-full text-white text-lg h-12 w-12 leading-10 mx-1 text-center flex items-center justify-center">
                 <a
                   href="https://www.linkedin.com/in/sebastian-gutierrez-54b403148/"
                   target="_blank"
@@ -175,7 +175,7 @@ function ContactMe() {
                   <FaLinkedin className="h-6 w-6" />
                 </a>
               </li>
-              <li className="bg-gray-950 hover:bg-red-500 rounded-full text-white text-lg h-12 w-12 leading-10 mx-1 text-center flex items-center justify-center">
+              <li className="bg-gray-950 hover:bg-orange-600 rounded-full text-white text-lg h-12 w-12 leading-10 mx-1 text-center flex items-center justify-center">
                 <a
                   href="https://twitter.com/sgutierrez24"
                   target="_blank"
@@ -185,7 +185,7 @@ function ContactMe() {
                   <FaTwitter className="h-6 w-6" />
                 </a>
               </li>
-              <li className="bg-gray-950 hover:bg-red-500 rounded-full text-white text-lg h-12 w-12 leading-10 mx-1 text-center flex items-center justify-center">
+              <li className="bg-gray-950 hover:bg-orange-600 rounded-full text-white text-lg h-12 w-12 leading-10 mx-1 text-center flex items-center justify-center">
                 <a
                   href="https://www.instagram.com/sgutierrez2488/"
                   target="_blank"
@@ -258,11 +258,11 @@ function ContactMe() {
                 </div>
                 <div className="col-span-2">
                   <button
-                    className="btn group flex items-center bg-transparent p-2 px-6 text-xl font-thin tracking-widest text-white hover:text-red-500"
+                    className="btn group flex items-center bg-transparent p-2 px-6 text-xl font-thin tracking-widest text-white hover:text-orange-600"
                     type="submit"
                     value="Send"
                   >
-                    <span className="relative hover:text-red-500 pr-4 pb-1 text-white after:transition-transform after:duration-500 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-red-500 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100">
+                    <span className="relative hover:text-orange-600 pr-4 pb-1 text-white after:transition-transform after:duration-600 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-orange-600 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100">
                       {!status.submitting ? (
                         !status.submitted ? (
                           "Send message"
@@ -279,7 +279,7 @@ function ContactMe() {
                       width="30"
                       xmlns="http://www.w3.org/2000/svg"
                       id="arrow-horizontal"
-                      className="-translate-x-2 fill-slate-700 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:scale-x-105 group-hover:fill-red-500"
+                      className="-translate-x-2 fill-slate-700 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:scale-x-105 group-hover:fill-orange-600"
                     >
                       <path
                         transform="translate(30)"

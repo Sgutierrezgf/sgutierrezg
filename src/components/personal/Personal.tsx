@@ -7,7 +7,7 @@ function Personal() {
       <div className="mx-auto py-20 relative w-full text-center">
         <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase">
           ABOUT
-          <span className="text-red-500">ME</span>
+          <span className="text-orange-600">ME</span>
         </h1>
         <span
           className="text-white text-9xl max-[767px]:text-8xl max-[600px]:text-6xl  font-semibold absolute left-0 right-0 top-1/2 transform -translate-y-1/2"
@@ -66,7 +66,7 @@ function Personal() {
                       phone:{" "}
                     </span>
                     <span className="font-semibold text-base">
-                      +604 3012363606
+                      +57 3012363606
                     </span>
                   </li>
                   <li>
@@ -104,8 +104,8 @@ function Personal() {
               </div>
               <div className="px-4">
                 <a href="https://github.com/Sgutierrezgf/sgutierrezcv/raw/main/src/styles/files/sebastiangutierrez-1.pdf">
-                  <button className="btn group flex items-center bg-transparent p-2 px-6 text-xl font-thin tracking-widest text-white hover:text-red-500">
-                    <span className="relative hover:text-red-500  pr-4 pb-1 text-white after:transition-transform after:duration-500 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-red-500 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100">
+                  <button className="btn group flex items-center bg-transparent p-2 px-6 text-xl font-thin tracking-widest text-white hover:text-orange-600">
+                    <span className="relative hover:text-orange-600  pr-4 pb-1 text-white after:transition-transform after:duration-600 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-orange-600 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100">
                       Download CV
                     </span>
                     <svg
@@ -114,7 +114,7 @@ function Personal() {
                       width="30"
                       xmlns="http://www.w3.org/2000/svg"
                       id="arrow-horizontal"
-                      className="-translate-x-2 fill-slate-700 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:scale-x-105 group-hover:fill-red-500"
+                      className="-translate-x-2 fill-slate-700 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:scale-x-105 group-hover:fill-orange-600"
                     >
                       <path
                         transform="translate(30)"
@@ -148,7 +148,7 @@ function Personal() {
               <div className="resume-box">
                 <ul className="list-none m-0 p-0">
                   <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-red-500 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
                       <BsBriefcase />
                     </div>
                     <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
@@ -169,7 +169,7 @@ function Personal() {
                     </p>
                   </li>
                   <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-red-500 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
                       <BsBriefcase />
                     </div>
                     <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
@@ -190,7 +190,7 @@ function Personal() {
                     </p>
                   </li>
                   <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-red-500 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
                       <BsBriefcase />
                     </div>
                     <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
@@ -219,7 +219,7 @@ function Personal() {
               <div className="resume-box">
                 <ul>
                   <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-red-500 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
                       <BsBriefcase />
                     </div>
                     <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
@@ -237,7 +237,7 @@ function Personal() {
                     </p>
                   </li>
                   <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-red-500 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
                       <BsBriefcase />
                     </div>
                     <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
@@ -255,7 +255,7 @@ function Personal() {
                     </p>
                   </li>
                   {/* <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-red-500 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
                       <BsBriefcase />
                     </div>
                     <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">

@@ -19,6 +19,17 @@ body {
   background-color: #111;
 }
 
+.fondo {
+  height: 200%;
+  left: -83%;
+  position: fixed;
+  top: -50%;
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  width: 100%;
+  background: rgba(234, 88, 12);
+}
+
 @keyframes slide-down {
   0% {
     opacity: 0;
@@ -56,8 +67,6 @@ body {
   .list {
     width: 100%;
   }
-
-
 }
 
 
@@ -106,7 +115,7 @@ body {
 }
 
 .scroll::-webkit-scrollbar-thumb {
-  background-color: #ef4444;
+  background-color: rgba(234, 88, 12);
   border-radius: 20px;
   opacity: 0.2;
 }

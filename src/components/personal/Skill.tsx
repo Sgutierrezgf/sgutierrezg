@@ -20,7 +20,7 @@ function Skill() {
             <button
               key={skill.title}
               onClick={() => setCurrentSkill(skill)}
-              className={`px-4 py-2 text-xl text-gray-100 transition bg-red-500 rounded-md h-14 w-44 hover:bg-blue-700 ${
+              className={`px-4 py-2 text-xl text-gray-100 transition bg-orange-600 rounded-md h-14 w-44 hover:bg-red-700 ${
                 currentSkill.title === skill.title
                   ? "font-bold ring-2 ring-gray-100"
                   : ""
@@ -55,7 +55,7 @@ function Skill() {
                 2 * Math.PI * 120 -
                 (currentSkill.percent / 100) * (2 * Math.PI * 120)
               }`}
-              className="text-red-500"
+              className="text-orange-600"
             />
           </svg>
           <span className="absolute text-5xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">

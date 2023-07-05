@@ -27,7 +27,7 @@ const Portfolio = () => {
     <div className="portfolio professional relative">
       <div className="mx-auto py-20 relative text-center">
         <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase">
-          my <span className="text-red-500">portfolio</span>
+          my <span className="text-orange-600">portfolio</span>
         </h1>
         <span
           className="text-white text-9xl max-[767px]:text-8xl max-[600px]:text-6xl font-semibold absolute left-0 right-0 top-1/2 transform -translate-y-1/2"
@@ -69,7 +69,7 @@ const Portfolio = () => {
                           src={project.image}
                           alt={project.project}
                         />
-                        <div className="hover:bg-red-500 hover:rounded-2xl absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+                        <div className="hover:bg-orange-600 hover:rounded-2xl absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 transition duration-600 ease-in-out">
                           <h3>
                             <span className="">{project.project}</span>
                           </h3>
@@ -90,7 +90,7 @@ const Portfolio = () => {
         {selectedProject && (
           <div className="rounded-2xl h-auto p-8">
             <div data-aos="fade" className="aos-init aos-animate">
-              <h2 className="text-red-500 text-4xl font-bold m-0 pt-2.5 pb-5 text-center uppercase">
+              <h2 className="text-orange-600 text-4xl font-bold m-0 pt-2.5 pb-5 text-center uppercase">
                 {selectedProject.project}
               </h2>
               <div className="mb-6 flex flex-wrap gap-2">
