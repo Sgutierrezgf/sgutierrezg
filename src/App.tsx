@@ -38,7 +38,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen p-4">
+    <div className="flex flex-col items-center justify-center h-screen p-4 z-1">
       <div className="fondo"></div>
       <div className="container h-4/5 md:flex">
         <div className="image md:w-1/2 flex justify-center">
