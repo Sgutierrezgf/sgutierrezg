@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #111;
+  background-color: rgb(17 24 39);
   background-position: 50%;
   background-size: cover;
   color: #fff;
@@ -72,6 +72,11 @@ body {
   .fondo {
     display: none;
   }
+
+  .sm\:.exp {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
 }
 
 

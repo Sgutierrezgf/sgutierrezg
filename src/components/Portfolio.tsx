@@ -26,11 +26,11 @@ const Portfolio = () => {
   return (
     <div className="portfolio professional relative">
       <div className="mx-auto py-20 relative text-center">
-        <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase">
+        <h1 className="text-white dark:text-gray-950 text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase">
           my <span className="text-orange-600">portfolio</span>
         </h1>
         <span
-          className="text-white text-9xl max-[767px]:text-8xl max-[600px]:text-6xl font-semibold absolute left-0 right-0 top-1/2 transform -translate-y-1/2"
+          className="text-white dark:text-gray-950 text-9xl max-[767px]:text-8xl max-[600px]:text-6xl font-semibold absolute left-0 right-0 top-1/2 transform -translate-y-1/2"
           style={{
             color: "hsla(0,0%,100%,.07)",
             letterSpacing: "10px",

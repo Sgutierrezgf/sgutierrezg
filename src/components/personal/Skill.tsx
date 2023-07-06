@@ -58,7 +58,7 @@ function Skill() {
               className="text-orange-600"
             />
           </svg>
-          <span className="absolute text-5xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+          <span className="absolute  dark:text-gray-950 text-5xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
             {`${currentSkill.percent}%`}
           </span>
         </div>

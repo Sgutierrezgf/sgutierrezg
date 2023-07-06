@@ -3,9 +3,9 @@ import { BsBriefcase } from "react-icons/bs";
 
 function Personal() {
   return (
-    <div>
+    <div className=" dark:text-gray-950">
       <div className="mx-auto py-20 relative w-full text-center">
-        <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase">
+        <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase  dark:text-gray-950">
           ABOUT
           <span className="text-orange-600">ME</span>
         </h1>
@@ -105,7 +105,7 @@ function Personal() {
               <div className="px-4">
                 <a href="https://github.com/Sgutierrezgf/sgutierrezcv/raw/main/src/styles/files/sebastiangutierrez-1.pdf">
                   <button className="btn group flex items-center bg-transparent p-2 px-6 text-xl font-thin tracking-widest text-white hover:text-orange-600">
-                    <span className="relative hover:text-orange-600  pr-4 pb-1 text-white after:transition-transform after:duration-600 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-orange-600 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100">
+                    <span className="relative  dark:text-gray-950 hover:text-orange-600  pr-4 pb-1 text-white after:transition-transform after:duration-600 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-orange-600 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100">
                       Download CV
                     </span>
                     <svg
@@ -137,143 +137,126 @@ function Personal() {
           </div>
           <hr className="my-4" />
 
-          <div className="grid grid-cols-2 px-4">
-            <div className="col-span-2 py-4 px-4">
+          <div className="flex flex-col px-4">
+            <div className="py-4 px-4">
               <h3 className="text-3xl font-semibold pb-5 mb-0">
                 Experience <span>&amp;</span> Education
               </h3>
             </div>
 
-            <div className="column-6 m-4 px-4">
-              <div className="resume-box">
-                <ul className="list-none m-0 p-0">
-                  <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
-                      <BsBriefcase />
-                    </div>
-                    <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
-                      {" "}
-                      2023 - 2023
-                    </span>
-                    <h5 className="poppins-font text-uppercase mx-1">
-                      {" "}
-                      Technical support
-                      <span className="place opacity-8 pl-6 relative">
-                        Coldetec
+            <div className="flex flex-col sm:flex-row">
+              <div className="m-4 px-4 ">
+                <div className="resume-box">
+                  <ul className="list-none m-0 p-0">
+                    <li className="line mb-12 pr-5 pl-16 relative">
+                      <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                        <BsBriefcase />
+                      </div>
+                      <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
+                        {" "}
+                        2023 - 2023
                       </span>
-                    </h5>
-                    <p className="m-0">
-                      {" "}
-                      Technical support was given to the different companies,
-                      from installing equipment to digitalizing documents.
-                    </p>
-                  </li>
-                  <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
-                      <BsBriefcase />
-                    </div>
-                    <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
-                      {" "}
-                      2021 - 2023
-                    </span>
-                    <h5 className="poppins-font text-uppercase mx-1">
-                      {" "}
-                      Frontend developer
-                      <span className="place opacity-8 pl-6 relative">
-                        Jikkosoft
+                      <h5 className="poppins-font text-uppercase mx-1">
+                        {" "}
+                        Technical support
+                        <span className="place opacity-8 pl-6 relative">
+                          Coldetec
+                        </span>
+                      </h5>
+                      <p className="m-0">
+                        {" "}
+                        Technical support was given to the different companies,
+                        from installing equipment to digitalizing documents.
+                      </p>
+                    </li>
+                    <li className="line mb-12 pr-5 pl-16 relative">
+                      <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                        <BsBriefcase />
+                      </div>
+                      <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
+                        {" "}
+                        2021 - 2023
                       </span>
-                    </h5>
-                    <p className="m-0">
-                      {" "}
-                      Web development of a tax collection website, using
-                      technologies such as React, Typescript, Material UI.
-                    </p>
-                  </li>
-                  <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
-                      <BsBriefcase />
-                    </div>
-                    <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
-                      {" "}
-                      2019 - 2021
-                    </span>
-                    <h5 className="poppins-font text-uppercase mx-1">
-                      {" "}
-                      Database Training
-                      <span className="place opacity-8 pl-6 relative">
-                        Seti
+                      <h5 className="poppins-font text-uppercase mx-1">
+                        {" "}
+                        Frontend developer
+                        <span className="place opacity-8 pl-6 relative">
+                          Jikkosoft
+                        </span>
+                      </h5>
+                      <p className="m-0">
+                        {" "}
+                        Web development of a tax collection website, using
+                        technologies such as React, Typescript, Material UI.
+                      </p>
+                    </li>
+                    <li className="line mb-12 pr-5 pl-16 relative">
+                      <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                        <BsBriefcase />
+                      </div>
+                      <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
+                        {" "}
+                        2019 - 2021
                       </span>
-                    </h5>
-                    <p className="m-0">
-                      {" "}
-                      Development, management and maintenance of the databases
-                      of a financial company, performing the process of
-                      migrating local databases to virtual databases.
-                    </p>
-                  </li>
-                </ul>
+                      <h5 className="poppins-font text-uppercase mx-1">
+                        {" "}
+                        Database Training
+                        <span className="place opacity-8 pl-6 relative">
+                          Seti
+                        </span>
+                      </h5>
+                      <p className="m-0">
+                        {" "}
+                        Development, management and maintenance of the databases
+                        of a financial company, performing the process of
+                        migrating local databases to virtual databases.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
 
-            <div className="column-6 m-4 px-4">
-              <div className="resume-box">
-                <ul>
-                  <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
-                      <BsBriefcase />
-                    </div>
-                    <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
-                      2022
-                    </span>
-                    <h5 className="poppins-font text-uppercase">
-                      ENGINEERING DEGREE
-                      <span className="place opacity-8 pl-6 relative">
-                        Instituto Tecnologico Metropolitano
+              <div className="m-4 px-4">
+                <div className="resume-box">
+                  <ul>
+                    <li className="line mb-12 pr-5 pl-16 relative">
+                      <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                        <BsBriefcase />
+                      </div>
+                      <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
+                        2022
                       </span>
-                    </h5>
-                    <p className="m-0">
-                      {" "}
-                      I obtained a degree in systems engineering
-                    </p>
-                  </li>
-                  <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
-                      <BsBriefcase />
-                    </div>
-                    <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
-                      2020
-                    </span>
-                    <h5 className="poppins-font text-uppercase">
-                      ENGINEERING DEGREE
-                      <span className="place opacity-8 pl-6 relative">
-                        Instituto Tecnologico Metropolitano
+                      <h5 className="poppins-font text-uppercase">
+                        ENGINEERING DEGREE
+                        <span className="place opacity-8 pl-6 relative">
+                          Instituto Tecnologico Metropolitano
+                        </span>
+                      </h5>
+                      <p className="m-0">
+                        {" "}
+                        I obtained a degree in systems engineering
+                      </p>
+                    </li>
+                    <li className="line mb-12 pr-5 pl-16 relative">
+                      <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
+                        <BsBriefcase />
+                      </div>
+                      <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
+                        2020
                       </span>
-                    </h5>
-                    <p className="m-0">
-                      {" "}
-                      I obtained the title of Systems Technologist.
-                    </p>
-                  </li>
-                  {/* <li className="line mb-12 pr-5 pl-16 relative">
-                    <div className="icon bg-orange-600 rounded-full text-white h-10 w-10 flex items-center justify-center absolute top-0 left-0 right-0 z-10">
-                      <BsBriefcase />
-                    </div>
-                    <span className="bg-gray-900 rounded-lg text-white inline-block text-xs font-semibold opacity-80 py-1 px-2 mb-3">
-                      2015
-                    </span>
-                    <h5 className="poppins-font text-uppercase">
-                      ENGINEERING DEGREE
-                      <span className="place opacity-8 pl-6 relative">
-                        OXFORD UNIVERSITY
-                      </span>
-                    </h5>
-                    <p className="m-0">
-                      {" "}
-                      Lorem ipsum dolor sit amet, consectetur tempor incididunt
-                      ut labore adipisicing elit
-                    </p>
-                  </li> */}
-                </ul>
+                      <h5 className="poppins-font text-uppercase">
+                        ENGINEERING DEGREE
+                        <span className="place opacity-8 pl-6 relative">
+                          Instituto Tecnologico Metropolitano
+                        </span>
+                      </h5>
+                      <p className="m-0">
+                        {" "}
+                        I obtained the title of Systems Technologist.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

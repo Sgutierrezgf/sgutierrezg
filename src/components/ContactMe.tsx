@@ -95,12 +95,12 @@ function ContactMe() {
   return (
     <div className="portfolio professional relative">
       <div className="mx-auto py-20 relative text-center">
-        <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase">
+        <h1 className="text-white dark:text-gray-950 text-5xl md:text-6xl lg:text-7xl font-bold tracking-wider uppercase">
           get in
           <span className="text-orange-600"> touch</span>
         </h1>
         <span
-          className="text-white text-9xl max-[767px]:text-8xl max-[600px]:text-6xl font-semibold absolute left-0 right-0 top-1/2 transform -translate-y-1/2"
+          className="text-white dark:text-gray-950 text-9xl max-[767px]:text-8xl max-[600px]:text-6xl font-semibold absolute left-0 right-0 top-1/2 transform -translate-y-1/2"
           style={{
             color: "hsla(0,0%,100%,.07)",
             letterSpacing: "10px",
@@ -114,18 +114,18 @@ function ContactMe() {
       <div className="mx-auto max-w-7xl pb-14">
         <div className="flex flex-wrap">
           <div className="px-4 w-full md:w-2/5">
-            <h3 className="text-2xl font-semibold mb-0 pb-1.5">
+            <h3 className="text-2xl dark:text-gray-950 font-semibold mb-0 pb-1.5">
               Don't be shy!
             </h3>
-            <p className="mt-4 mb-4">
+            <p className="mt-4 mb-4 dark:text-gray-950">
               Feel free to get in touch with me. I am always open to discussing
               new projects, creative ideas, or opportunities to be part of your
               visions.
             </p>
             <div className="flex items-center mb-5">
-              <FiMap className="text-3xl mr-2 h-7 w-7 self-start" />
-              <p className="font-semibold leading-6">
-                <span className="font-normal opacity-80 pb-0 uppercase">
+              <FiMap className="text-3xl dark:text-gray-950 mr-2 h-7 w-7 self-start" />
+              <p className="font-semibold leading-6 dark:text-gray-950">
+                <span className="font-normal  opacity-80 pb-0 uppercase">
                   Address Point:
                 </span>
                 <br />
@@ -133,8 +133,8 @@ function ContactMe() {
               </p>
             </div>
             <div className="flex items-center mb-5">
-              <FaEnvelopeOpen className="text-3xl mr-2 h-7 w-7 self-start" />
-              <p className="font-semibold leading-6">
+              <FaEnvelopeOpen className="text-3xl mr-2 h-7 w-7 self-start  dark:text-gray-950" />
+              <p className="font-semibold leading-6 dark:text-gray-950">
                 <span className="font-normal opacity-80 pb-0 uppercase">
                   Mail me:
                 </span>
@@ -145,8 +145,8 @@ function ContactMe() {
               </p>
             </div>
             <div className="flex items-center mb-5">
-              <FaPhone className="text-3xl mr-2 w-7 self-start" />
-              <p className="font-semibold leading-6">
+              <FaPhone className="text-3xl mr-2 w-7 self-start  dark:text-gray-950" />
+              <p className="font-semibold leading-6 dark:text-gray-950">
                 <span className="font-normal opacity-80 pb-0 uppercase">
                   Call me:
                 </span>
@@ -262,7 +262,7 @@ function ContactMe() {
                     type="submit"
                     value="Send"
                   >
-                    <span className="relative hover:text-orange-600 pr-4 pb-1 text-white after:transition-transform after:duration-600 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-orange-600 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100">
+                    <span className="relative dark:text-gray-950 hover:text-orange-600 pr-4 pb-1 text-white after:transition-transform after:duration-600 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-orange-600 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100">
                       {!status.submitting ? (
                         !status.submitted ? (
                           "Send message"
